@@ -1,0 +1,16 @@
+name: abcd_123_learning_app
+description: A simple ABCD and 123 learning app with audio support.
+version: 0.0.2
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_tts: ^3.6.3
+
+flutter:
+  uses-material-design: true
